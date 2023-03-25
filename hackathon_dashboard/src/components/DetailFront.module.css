@@ -87,24 +87,36 @@
     flex-grow: 0;
 }
 
-.favorite{
+.favorite {
     display: flex;
     align-items: center;
 }
 
-.favorite img{
+.favorite img {
     padding-right: 30px;
 }
 
-.date{
-    padding: 10px;
+.date {
     border-left: 1px solid #F5F5F5;
+}
+
+.dateCircle {
+    margin-left: 20px;
+    padding: 6px 12px;
+    gap: 4px;
+    background: #255973;
+    border-radius: 100px;
     display: flex;
     align-items: center;
+    height: 40px;
 }
 
-.date img{
+.dateCircle img {
     border-right: none;
+    padding: 0;
 }
 
-
+.dateCircle p {
+    padding: 0 8px;
+    margin: 8px 0;
+}

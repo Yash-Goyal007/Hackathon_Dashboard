@@ -19,8 +19,10 @@ const DetailFront = props => {
                 <div className={classes.favorite}>
                     <img src={star} alt="" />
                     <div className={classes.date}>
-                        <img src={calender} alt="" />
-                        <p>03 March</p>
+                        <div className={classes.dateCircle}>
+                            <img src={calender} alt="" />
+                            <p>03 March</p>
+                        </div>
                     </div>
                 </div>
             </div>
