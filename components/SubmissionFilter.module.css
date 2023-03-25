@@ -1,0 +1,67 @@
+.outerBox {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 20vh;
+    align-items: center;
+}
+
+.allFav {
+    display: flex;
+    width: 50%;
+}
+
+.allFav h6 {
+    padding: 5px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 100px;
+    width: 250px;
+    height: 10px;
+    border: 1px solid #666666;
+    margin: 0 30px;
+}
+
+.search input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 17px;
+}
+
+.dropdown {
+    background-color: transparent;
+    padding: 8px 16px;
+    padding: 10px;
+    gap: 8px;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #666666;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.dropdown option {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #333333;
+}
