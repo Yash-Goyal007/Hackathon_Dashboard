@@ -1,43 +1,64 @@
 .submissionForm {
     margin-left: 20vh;
+    margin-top: 10vh;
     background-color: #FFFFFF;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    border-radius: 24px;
+    padding: 10px 10vh;
 }
-.main-heading{
-    font-family:'Times New Roman', Times, serif;
+
+.submissionForm input,textarea {
+    width: 80%;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
 }
-.title{
+
+.hack-start input{
+    width: 50%;
+}
+
+.main-heading {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
     width: 480px;
     height: 38px;
-   border-radius: 10px;
-   padding-left: 10px;
-   padding-right: 10px;
-   outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
 }
-.description{
- 
-    height: 130px;
-   border-radius: 10px;
-   text-align: start;
 
-   outline: none;
+
+
+.description {
+
+    height: 130px;
+    border-radius: 10px;
+    text-align: start;
+
+    outline: none;
 }
-.count{
-   margin-left: 400px;
-   margin-top: 7px;
+
+.count {
+    margin-left: 400px;
+    margin-top: 7px;
 }
-.image-sec{
-    width: 510px;
+
+.image-sec {
+    width: 80%;
     height: 70px;
-     background-color:#f4eeeec3;
+    background-color: #f4eeeec3;
     border-radius: 24px;
-    border: 2px dashed #b2b0b0e1 ;
+    border: 2px dashed #b2b0b0e1;
 }
-.image-sec img{
+
+.image-sec img {
     margin-left: 250px;
     margin-top: 8px;
 
@@ -46,23 +67,27 @@
 input[type=date]:required:invalid::-webkit-datetime-edit {
     color: transparent;
 }
+
 input[type=date]:focus::-webkit-datetime-edit {
     color: black !important;
 }
-.hack-main{
+
+.hack-main {
     display: flex;
     flex-direction: row;
     column-gap: 10px;
 
 }
-.hack-main input{
-     width: 250px;
-     height: 38px;
-     border-radius: 10px;
-     outline: none;
-     margin-top: -6px;
+
+.hack-main input {
+    width: 250px;
+    height: 38px;
+    border-radius: 10px;
+    outline: none;
+    margin-top: -6px;
 }
-.submit{
+
+.submit {
     text-align: center;
     color: #FFFFFF;
     background: #44924C;
@@ -70,14 +95,11 @@ input[type=date]:focus::-webkit-datetime-edit {
     border-radius: 10px;
     width: 192px;
     height: 44px;
-   margin-top: 20px;
+    margin-top: 20px;
 }
-.textsub{
+
+.textsub {
     position: relative;
-     top: 10px;
-     font-weight: 700;
+    top: 10px;
+    font-weight: 700;
 }
-
-
-
-

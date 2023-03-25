@@ -52,7 +52,6 @@ const SubmissionForm = props => {
             <h4>Cover Image</h4>
             <div className="image-sec">
                 <img src={vector} alt="" />
-
             </div>
             <div className="hack-main">
                 <div className="hack-start">
